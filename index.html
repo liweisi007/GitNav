@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitNav - 导航站</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <img src="images/logo.png" alt="GitNav Logo" id="logo">
+      <h1>GitNav</h1>
+    </div>
+    <input type="text" id="search" placeholder="搜索链接...">
+    <button id="theme-toggle">切换主题</button>
+  </header>
+
+  <!-- 新增网址表单 -->
+  <div id="add-link-form">
+    <input type="text" id="new-category" placeholder="分类">
+    <input type="text" id="new-name" placeholder="名称">
+    <input type="text" id="new-url" placeholder="网址 URL">
+    <input type="text" id="new-icon" placeholder="图标文件名 (可选)">
+    <button id="add-link-btn">添加链接</button>
+  </div>
+
+  <main id="nav-container"></main>
+
+  <footer>
+    <p>Powered by GitNav</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
