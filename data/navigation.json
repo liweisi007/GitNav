@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "name": "工作",
+      "links": [
+        {"name": "GitHub", "url": "https://github.com", "icon": "github.png"},
+        {"name": "GitLab", "url": "https://gitlab.com", "icon": "gitlab.png"}
+      ]
+    },
+    {
+      "name": "学习",
+      "links": [
+        {"name": "MDN Web Docs", "url": "https://developer.mozilla.org", "icon": "mdn.png"},
+        {"name": "W3Schools", "url": "https://www.w3schools.com", "icon": "mdn.png"}
+      ]
+    },
+    {
+      "name": "娱乐",
+      "links": [
+        {"name": "YouTube", "url": "https://www.youtube.com", "icon": "youtube.png"}
+      ]
+    }
+  ]
+}
